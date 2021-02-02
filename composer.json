@@ -1,0 +1,30 @@
+{
+    "name": "microsoft/ssrs-wrapper",
+    "description": "SSRS Wrapper are classes designed to facilitate the integration with Microsoft SQL Reporting Services via URL calls",
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/DenysXavier/ssrs-wrapper",
+    "support": {
+        "issues": "https://github.com/DenysXavier/ssrs-wrapper/issues",
+        "source": "https://github.com/DenysXavier/ssrs-wrapper"
+    },
+    "authors": [
+        {
+            "name": "Denys Xavier",
+            "email": "denysxavier.github@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Microsoft\\SSRSWrapper\\": "src/"
+        }
+    }
+}
